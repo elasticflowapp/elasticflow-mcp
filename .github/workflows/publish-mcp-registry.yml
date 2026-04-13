@@ -1,0 +1,21 @@
+name: Publish to MCP Registry
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install mcp-publisher
+        run: |
+          curl -L "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz
+          sudo mv mcp-publisher /usr/local/bin/
+
+      - name: Login via DNS
+        run: mcp-publisher login dns --domain "elasticflow.app" --private-key "${{ secrets.MCP_REGISTRY_PRIVATE_KEY }}"
+
+      - name: Publish
+        run: mcp-publisher publish -f server.json

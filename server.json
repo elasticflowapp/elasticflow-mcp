@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.elasticflow/mcp",
+  "title": "Elasticflow",
+  "description": "AI-native team workspace — tables, documents, workflow automation, live dashboards & analytics",
+  "version": "1.0.0",
+  "websiteUrl": "https://p.elasticflow.app/signup-earlybirds?utm_source=mcp",
+  "repository": {
+    "url": "https://github.com/elasticflowapp/elasticflow-mcp",
+    "source": "github"
+  },
+  "iconUrl": "https://raw.githubusercontent.com/elasticflowapp/elasticflow-mcp/main/assets/icon.svg",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.elasticflow.app/mcp"
+    }
+  ]
+}
