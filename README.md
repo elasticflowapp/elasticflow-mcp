@@ -1,8 +1,8 @@
-# Elasticflow MCP Server
+# [Elasticflow](https://www.elasticflow.app) MCP Server
 
 One workspace where your AI agents and your team work together.
 
-Connect your AI assistant to Elasticflow and let it manage tables, write documents, upload files, and publish live dashboards — all within your team's shared workspace. Everything your agents produce is instantly available to the whole organization, not buried in a chat thread.
+Connect your AI assistant to [Elasticflow](https://www.elasticflow.app) and let it manage tables, write documents, upload files, and publish live dashboards — all within your team's shared workspace. Everything your agents produce is instantly available to the whole organization, not buried in a chat thread.
 
 **What you can do:**
 - Build and query structured data — sales pipelines, contract trackers, campaign analytics, inventory logs
@@ -13,7 +13,7 @@ Connect your AI assistant to Elasticflow and let it manage tables, write documen
 
 ## Prerequisites
 
-You need an Elasticflow account to use this MCP server. When you connect for the first time, your AI assistant will open a browser window where you can sign in or create an account.
+You need an [Elasticflow](https://www.elasticflow.app) account to use this MCP server. When you connect for the first time, your AI assistant will open a browser window where you can sign in or create an account.
 
 [Sign up for early access](https://p.elasticflow.app/signup-earlybirds?utm_source=mcp)
 
@@ -284,6 +284,11 @@ Cursor (`.cursor/mcp.json`):
 
 "Build and publish a live dashboard tracking order fulfillment rates"
 ```
+
+## Documentation
+
+- [Elasticflow Website](https://www.elasticflow.app)
+- [Sign up](https://p.elasticflow.app/signup-earlybirds?utm_source=mcp)
 
 ## License
 
