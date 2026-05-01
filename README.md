@@ -1,5 +1,10 @@
 # [Elasticflow](https://www.elasticflow.app) MCP Server
 
+[![MCP](https://img.shields.io/badge/MCP-Streamable%20HTTP-blue?style=flat-square)](https://modelcontextprotocol.io)
+[![AI Clients](https://img.shields.io/badge/AI%20clients-13%2B-purple?style=flat-square)](#supported-platforms)
+[![Last Update](https://img.shields.io/github/last-commit/elasticflowapp/elasticflow-mcp?style=flat-square&label=updated)](https://github.com/elasticflowapp/elasticflow-mcp/commits/main)
+[![License](https://img.shields.io/github/license/elasticflowapp/elasticflow-mcp?style=flat-square)](LICENSE)
+
 One workspace where your AI agents and your team work together.
 
 Connect your AI assistant to [Elasticflow](https://www.elasticflow.app) and let it manage tables, write documents, upload files, and publish live dashboards — all within your team's shared workspace. Everything your agents produce is instantly available to the whole organization, not buried in a chat thread.
